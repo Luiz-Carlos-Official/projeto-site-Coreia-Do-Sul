@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@media (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, #ffffff, #f0f0f0);
+        color: #111;
+    }
+
+    header {
+        background: linear-gradient(90deg, #c8102e, #003478); /* vermelho + azul da bandeira */
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        border-bottom: 4px solid #000;
+    }
+
+    #titulo1 {
+        font-size: 1.8rem;
+        margin: 0.5rem 0;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 0.5rem;
+        flex-wrap: wrap;
+    }
+
+    #menu a {
+        color: white;
+        font-size: 1.4rem;
+        padding: 0.6rem;
+        border-radius: 50%;
+        transition: 0.3s;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    #menu a:hover {
+        background: white;
+        color: #c8102e;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    #titulo2 {
+        font-size: 1.4rem;
+        margin: 1.5rem 0 0.8rem 0;
+        text-align: center;
+        color: #c8102e;
+        border-bottom: 2px solid #003478;
+        padding-bottom: 0.4rem;
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+    }
+
+    #img img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 12px;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    }
+
+    #texto {
+        background: #ffffff;
+        padding: 1rem;
+        border-radius: 12px;
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+        margin-bottom: 1.5rem;
+    }
+
+    footer {
+        background: #111;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 0.9rem;
+        border-top: 4px solid #c8102e;
+    }
+}

@@ -1,0 +1,95 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, #ffffff, #f8f8f8);
+        color: #111;
+    }
+
+    header {
+        background: linear-gradient(90deg, #c8102e, #003478);
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 2rem;
+        border-bottom: 4px solid #000;
+    }
+
+    #titulo1 {
+        font-size: 2.2rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    #menu {
+        display: flex;
+        gap: 1.2rem;
+    }
+
+    #menu a {
+        color: white;
+        font-size: 1.6rem;
+        padding: 0.6rem;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    #menu a:hover {
+        background: white;
+        color: #c8102e;
+    }
+
+    main {
+        padding: 2rem;
+        max-width: 900px;
+        margin: auto;
+    }
+
+    #titulo2 {
+        font-size: 1.8rem;
+        margin: 2rem 0 1rem 0;
+        text-align: left;
+        color: #c8102e;
+        border-left: 6px solid #003478;
+        padding-left: 0.6rem;
+    }
+
+    #img {
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem 0;
+    }
+
+    #img img {
+        max-width: 90%;
+        border-radius: 14px;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.25);
+        transition: transform 0.3s;
+    }
+
+    #img img:hover {
+        transform: scale(1.03);
+    }
+
+    #texto {
+        background: #fff;
+        padding: 1.2rem 1.5rem;
+        border-radius: 14px;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        text-align: justify;
+        margin-bottom: 2rem;
+        box-shadow: 0px 6px 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+        background: #111;
+        color: white;
+        text-align: center;
+        padding: 1.2rem;
+        font-size: 1rem;
+        border-top: 5px solid #c8102e;
+    }
+}
